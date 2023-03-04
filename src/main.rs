@@ -20,5 +20,11 @@ fn main() {
         false => total + 5,
     };
 
+    match total {
+        1 => println!("1"),
+        2 => println!("2"),
+        _ => println!("No match found"),
+    }
+
     println!("{:?}", total);
 }
